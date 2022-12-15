@@ -24,6 +24,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .search-wrapper button{
     font-size: l6px;
@@ -89,4 +90,23 @@ body{
     margin-top: 80px;
     text-align: center;
     color: rgb(237, 24, 24) !important;
+}
+
+
+@media (max-width: 450px) {
+    .container {
+        width: 95%;
+    }
+    .search-wrapper input {
+        width: 100%;
+    }
+
+    #result {
+        width: 100%;
+    }
+    .search-wrapper button {
+        font-size: 15px;
+        margin: 20px 0;
+        width: 100%;
+    }
 }
